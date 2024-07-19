@@ -1,0 +1,1663 @@
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("../public/fonts/gotham/SVN-Gotham.eot");
+  src: url("../public/fonts/gotham/SVN-Gotham.eot?#iefix") format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-Gotham.svg#SVN-Gotham") format("svg"),
+    url("../public/fonts/gotham/SVN-Gotham.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-Gotham.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-Gotham.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("../public/fonts/gotham/SVN-GothamItalic.eot");
+  src: url("../public/fonts/gotham/SVN-GothamItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamItalic.svg#SVN-GothamItalic") format("svg"),
+    url("../public/fonts/gotham/SVN-GothamItalic.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamItalic.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-GothamBook";
+  src: url("../public/fonts/gotham/SVN-GothamBook.eot");
+  src: url("../public/fonts/gotham/SVN-GothamBook.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamBook.svg#SVN-GothamBook") format("svg"),
+    url("../public/fonts/gotham/SVN-GothamBook.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamBook.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamBook.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-GothamBook";
+  src: url("../public/fonts/gotham/SVN-GothamBookItalic.eot");
+  src: url("../public/fonts/gotham/SVN-GothamBookItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamBookItalic.svg#SVN-GothamBookItalic")
+      format("svg"),
+    url("../public/fonts/gotham/SVN-GothamBookItalic.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamBookItalic.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamBookItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("../public/fonts/gotham/SVN-GothamLight.eot");
+  src: url("../public/fonts/gotham/SVN-GothamLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamLight.svg#SVN-GothamLight") format("svg"),
+    url("../public/fonts/gotham/SVN-GothamLight.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamLight.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("../public/fonts/gotham/SVN-GothamLightItalic.eot");
+  src: url("../public/fonts/gotham/SVN-GothamLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamLightItalic.svg#SVN-GothamLightItalic")
+      format("svg"),
+    url("../public/fonts/gotham/SVN-GothamLightItalic.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamLightItalic.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("../public/fonts/gotham/SVN-GothamBold.eot");
+  src: url("../public/fonts/gotham/SVN-GothamBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamBold.svg#SVN-GothamBold") format("svg"),
+    url("../public/fonts/gotham/SVN-GothamBold.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamBold.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("../public/fonts/gotham/SVN-GothamBoldItalic.eot");
+  src: url("../public/fonts/gotham/SVN-GothamBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/gotham/SVN-GothamBoldItalic.svg#SVN-GothamBoldItalic")
+      format("svg"),
+    url("../public/fonts/gotham/SVN-GothamBoldItalic.ttf") format("truetype"),
+    url("../public/fonts/gotham/SVN-GothamBoldItalic.woff") format("woff"),
+    url("../public/fonts/gotham/SVN-GothamBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta-Regular";
+  src: url("../public/fonts/Averta/Regular/AvertaCY-Regular.woff");
+}
+
+
+
+html,
+body {
+  font-family: "Averta-Regular", "Roboto";
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* body {
+  font-size: 1rem;
+} */
+
+/* Scroll Bar */
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(66, 66, 66, 0.2);
+  border: 0px;
+  background-clip: padding-box;
+  border-radius: 5px;
+}
+
+nav {
+  /* background-color: #232f3e; */
+  background-color: #f3f4f6;
+  padding: 1rem 1rem;
+}
+
+.navbar {
+  padding: 0.1rem 1rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Account droplist */
+.dropdown-item {
+  background-color: #f9f9f9;
+}
+.dropdown-item:hover {
+  background-color: #e0e9f0;
+}
+
+#search_btn {
+  /* background-color: #febd69; */
+  background-color: #69544a;
+}
+
+
+.input-group {
+  width: 90%;
+  margin-right: 35%;
+}
+
+.Btn {
+  background-color: #69544a;
+  color: white;
+}
+.Btn:hover {
+  background-color: #69544a;
+  color: white;
+  transform: scale(1.1);
+}
+.Btn:active {
+  transform: scale(0.95);
+}
+.Btn.focus,
+.Btn:focus {
+  outline: 5px;
+  box-shadow: none;
+}
+
+.Btn icon {
+  color: white;
+}
+
+/* Banner Slider */
+.banner-slider-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.mySlides {
+  /* background-size: cover;
+  background-position: center; */
+  width: 100%;
+  height: auto; /* vh: Đặt chiều cao theo viewport */
+  object-fit: contain; /* contain: co giãn theo màn hình. cover, giữ chiều cao, khuyết 2 bên*/
+}
+
+@media (max-width: 768px) { /* Điều chỉnh kích thước này theo nhu cầu của bạn */
+  .mySlides {
+    /* width: auto; */
+    height: 20vh;
+    object-fit: contain;
+  }
+}
+
+
+.w3-content{margin-left:auto;margin-right:auto}  /* canh giữa */
+/* .w3-content{max-width:980px} */
+.w3-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.w3-auto{max-width:1140px}
+.w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block} /* hiện các nút điều hướng khi di chuột qua slider */
+.w3-center{text-align:center!important} /* vị trí nút slider ở giữa */
+.w3-text-white,.w3-hover-text-white:hover{color:#fff!important} /* màu trắng cho mũi tên */
+.w3-large{font-size:1.5em!important} /* kích thước mũi tên slider */
+/* .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before, */
+.w3-container,.w3-panel{padding:0.01em 16px} /* đưa 2 nút mũi tên vào trong hình */
+@media screen and (min-width: 768px) {
+  .w3-container, .w3-panel {
+    padding: 0.01em 16px;
+  }
+}
+.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)} /* dịch mũi tên và nút tròn từ dưới ngoài hình lên dưới trong hình */
+.w3-left{float:left!important}.w3-right{float:right!important} /* 2 mũi tên sát nhau giữa -> 2 bên */
+.w3-hover-text-khaki:hover{color:#b4aa50!important}
+
+
+.w3-badge {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  padding: 0;
+  background-color: #fff;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  float: center;
+  margin-right: 5px;
+}
+
+/* CSS cho hiệu ứng hover */
+.w3-badge:hover {
+  background-color: #b4aa50; 
+  transform: scale(1.1);
+}
+
+/* CSS cho hiệu ứng active */
+.w3-badge:active {
+  background-color: #392a27; 
+}
+.w3-badge.active {
+  background-color: #392a27; /* Thay đổi màu sắc khi auto chuyển slide, click tới lùi */
+}
+.w3-badge:focus {
+  background-color: blue; 
+}
+
+
+/* Youtube iframe */
+.centered-iframe {
+  position: relative; /* để iframe định vị tương đối so với nó */
+  width: 80%; /* Chiều rộng bằng ..% chiều rộng của centered-container (nếu không là viewport) */
+  height: 0; /* viewport height: Chiều cao bằng 80% chiều cao của viewport. Tuy nhiên đặt chiều bao đầu bằng 0 để xài padding-bottom */
+  padding-bottom: 56.25%; /* Tạo tỷ lệ 16:9 */
+  overflow: hidden; /* cắt bỏ nội dung vượt qua kích thước đã định */
+}
+
+@media (min-width: 768px) and (min-aspect-ratio: 4/3) { /* medium-size là 768 và tỉ lệ phải từ 4/3 */
+  .centered-iframe {
+    padding-bottom: 0; /* Xóa padding-bottom */
+    height: 80vh; /* Tạo tỷ lệ theo 80% viewport cho màn hình lớn hơn medium size */
+  }
+}
+
+.centered-iframe iframe {
+  position: absolute; /* để iframe định vị tuyệt đối so với center-container */
+  top: 0; /* trên cùng */
+  left: 0; /* bên trái */
+  width: 100%; /* cho iframe chiếm toàn bộ không gian */
+  height: 100%; /* chiều cao của iframe chiếm 80% không gian */
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center; /* canh giữa theo chiều ngang */
+  margin-bottom: 4rem; /* Khoảng cách dưới so với Footer*/
+}
+
+
+/* Search bar */
+#search_field {
+  height: 2.4rem;
+  padding: 1rem;
+}
+
+#login_btn {
+  background-color: #69544a;
+  padding: 0.4rem 1.8rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* Nút xem chi tiết sảm phẩm */
+#view_btn,
+#new_review_btn {
+  /* background-color: #fa9c23; */
+  background-color: #e0e9f0;
+  padding: 0.4rem 1.8rem;
+  /* color: black; */
+  color: #392a27 ;
+}
+#view_btn:hover {
+  background-color: #bbb; 
+  transform: scale(1.05);
+}
+
+#view_btn:active {
+  background-color: #c4b3ad; 
+  scale: 0.95;
+}
+
+
+
+#cart {
+  /* background-color: #e0e9f0; */
+  font-size: 0.9rem;
+  color: black;
+}
+#cart:hover {
+  transform: scale(1.1);
+}
+
+.cart-icon {
+ color: #392a27;
+ margin-right: -15px; /* Cho icon sát vào chữ "Giỏ hàng" */
+}
+
+#cart_count {
+  /* background-color: #febd69; */
+  background-color: #e0e9f0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  color: #392a27;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* Home page */
+
+.container-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#products_heading, #topRatedProducts {
+  margin-top: 1.8rem;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+
+#products {
+  width: 95%;
+  margin: auto;
+}
+
+
+.card {
+  height: 100%;
+}
+
+.card-title a {
+  color: #2e2e2e;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.card-title a:hover {
+  color: #fa9c23;
+  text-decoration: none;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Homepage price */
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card-img-top {
+  /* width: 200px;
+  height: 150px; */
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.ratings {
+  font-size: 1.1rem;
+  color: #fdcc0d;
+}
+
+#no_of_reviews {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer */
+/* footer {
+  margin-top: auto;
+  color: grey;
+  bottom: 0;
+  width: 100%;
+} */
+/* margin-top: khoản cách từ border-top với body-content */
+.page-footer {
+  background: #fafafa;
+  color: #656565;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 10px;
+  border-top: 1px solid #cfd3cb;
+}
+@media (min-width: 768px) {
+  .page-footer {
+    margin-top: 30px;
+  }
+}
+.page-footer a {
+  color: #656565;
+  font-weight: 400;
+}
+.page-footer a:hover {
+  color: #c9ae63;
+}
+.page-footer .footer-content {
+  padding: 10px 16px 10px;
+  margin-bottom: 0 !important;
+  border: none !important;
+}
+@media (min-width: 768px) {
+  .page-footer .footer-content {
+    padding: 20px 16px 38px;
+  }
+}
+.page-footer .footer-bottom {
+  padding: 6px 16px 9px;
+  border-top: 1px solid #cfd3cb;
+  font-size: 12px;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #656565;
+  line-height: 21px;
+  display: block;
+  text-align: left;
+  background-color: #fff;
+}
+.page-footer .footer-bottom .footer-copyright {
+  color: #656565;
+  margin: 0;
+}
+.page-footer .footer.content {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+.page-footer .footer.content .footer-logo {
+  margin-bottom: 23px;
+}
+.page-footer .footer.content .footer-logo img {
+  height: 30px;
+}
+.page-footer .footer.content .footer-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  margin: 0 0 21px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  position: relative;
+  padding: 0 !important;
+}
+.page-footer .footer.content .footer-title:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #323232;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  top: auto;
+  right: auto;
+}
+.page-footer .footer.content .footer-links {
+  list-style: none !important;
+  padding: 0 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  margin: 0 !important;
+}
+.page-footer .footer.content .footer-links li {
+  line-height: 18px;
+  padding: 7px 0;
+}
+.page-footer .footer.content .footer-address {
+  max-width: 336px;
+}
+.page-footer .footer.content .footer-address li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-family: "SVN-GothamBook", sans-serif;
+}
+.page-footer .footer.content .footer-address li:before {
+  content: none !important;
+}
+.page-footer .footer.content .footer-address .ft-hotline {
+  color: #323232;
+  margin-bottom: 20px;
+  font-family: "SVN-Gotham", sans-serif;
+}
+.page-footer .footer.content .footer-address b,
+.page-footer .footer.content .footer-address strong {
+  font-weight: 400;
+  font-family: "SVN-Gotham", sans-serif;
+}
+/* Tránh hiện tượng chỉ chiếm 1 phần do .row có display: flex -> chiếm toàn bộ không gian còn lại trong dòng (do flex: 1), nó không co lại (do flex-shrink: 0) và nó nên bắt đầu với chiều rộng cơ bản là 100% của dòng (do flex-basis: 100%) */
+@media (max-width: 767px) {
+  .row > .footer-column {
+    flex: 1 0 100%;
+  }
+}
+.page-footer .footer.content .footer-social {
+  margin-bottom: 30px;
+  margin-top: -5px;
+  list-style-type: none;
+  display: flex;
+}
+.page-footer .footer.content .footer-social li {
+  margin-right: 9px;
+}
+.page-footer .footer.content .footer-social li a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.page-footer .footer.content .footer-social .facebook a {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDIuMjVDOS40NzkxIDIuMjUwMDUgNy4wNTYxOSAzLjIyNjQ3IDUuMjM5NjggNC45NzQzOUMzLjQyMzE3IDYuNzIyMzEgMi4zNTQyNiA5LjEwNTg2IDIuMjU3MjMgMTEuNjI0OUMyLjE2MDIgMTQuMTQzOSAzLjA0MjYgMTYuNjAyNiA0LjcxOTI4IDE4LjQ4NTFDNi4zOTU5NSAyMC4zNjc2IDguNzM2NTcgMjEuNTI3NSAxMS4yNSAyMS43MjE0VjE0LjI1MDFIOUM4LjgwMTA5IDE0LjI1MDEgOC42MTAzMiAxNC4xNzExIDguNDY5NjcgMTQuMDMwNEM4LjMyOTAyIDEzLjg4OTggOC4yNSAxMy42OTkgOC4yNSAxMy41MDAxQzguMjUgMTMuMzAxMiA4LjMyOTAyIDEzLjExMDQgOC40Njk2NyAxMi45Njk4QzguNjEwMzIgMTIuODI5MSA4LjgwMTA5IDEyLjc1MDEgOSAxMi43NTAxSDExLjI1VjEwLjUwMDFDMTEuMjUwOSA5LjcwNDcyIDExLjU2NzMgOC45NDIxOCAxMi4xMjk3IDguMzc5NzdDMTIuNjkyMSA3LjgxNzM2IDEzLjQ1NDYgNy41MDEgMTQuMjUgNy41MDAwOUgxNS43NUMxNS45NDg5IDcuNTAwMDkgMTYuMTM5NyA3LjU3OTExIDE2LjI4MDMgNy43MTk3NkMxNi40MjEgNy44NjA0MSAxNi41IDguMDUxMTggMTYuNSA4LjI1MDA5QzE2LjUgOC40NDkgMTYuNDIxIDguNjM5NzcgMTYuMjgwMyA4Ljc4MDQyQzE2LjEzOTcgOC45MjEwNyAxNS45NDg5IDkuMDAwMDkgMTUuNzUgOS4wMDAwOUgxNC4yNUMxMy44NTIzIDkuMDAwNTQgMTMuNDcxIDkuMTU4NzIgMTMuMTg5OCA5LjQzOTkzQzEyLjkwODYgOS43MjExNCAxMi43NTA1IDEwLjEwMjQgMTIuNzUgMTAuNTAwMVYxMi43NTAxSDE1QzE1LjE5ODkgMTIuNzUwMSAxNS4zODk3IDEyLjgyOTEgMTUuNTMwMyAxMi45Njk4QzE1LjY3MSAxMy4xMTA0IDE1Ljc1IDEzLjMwMTIgMTUuNzUgMTMuNTAwMUMxNS43NSAxMy42OTkgMTUuNjcxIDEzLjg4OTggMTUuNTMwMyAxNC4wMzA0QzE1LjM4OTcgMTQuMTcxMSAxNS4xOTg5IDE0LjI1MDEgMTUgMTQuMjUwMUgxMi43NVYyMS43MjE0QzE1LjI2MzQgMjEuNTI3NSAxNy42MDQgMjAuMzY3NiAxOS4yODA3IDE4LjQ4NTFDMjAuOTU3NCAxNi42MDI2IDIxLjgzOTggMTQuMTQzOSAyMS43NDI3IDExLjYyNDlDMjEuNjQ1NyA5LjEwNTg3IDIwLjU3NjggNi43MjIzMiAxOC43NjAzIDQuOTc0NEMxNi45NDM4IDMuMjI2NDkgMTQuNTIwOSAyLjI1MDA2IDEyIDIuMjVaIiBmaWxsPSIjMzIzMjMyIi8+Cjwvc3ZnPgo=") !important;
+}
+.page-footer .footer.content .footer-social .facebook a:hover {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDIuMjVDOS40NzkxIDIuMjUwMDUgNy4wNTYxOSAzLjIyNjQ3IDUuMjM5NjggNC45NzQzOUMzLjQyMzE3IDYuNzIyMzEgMi4zNTQyNiA5LjEwNTg2IDIuMjU3MjMgMTEuNjI0OUMyLjE2MDIgMTQuMTQzOSAzLjA0MjYgMTYuNjAyNiA0LjcxOTI4IDE4LjQ4NTFDNi4zOTU5NSAyMC4zNjc2IDguNzM2NTcgMjEuNTI3NSAxMS4yNSAyMS43MjE0VjE0LjI1MDFIOUM4LjgwMTA5IDE0LjI1MDEgOC42MTAzMiAxNC4xNzExIDguNDY5NjcgMTQuMDMwNEM4LjMyOTAyIDEzLjg4OTggOC4yNSAxMy42OTkgOC4yNSAxMy41MDAxQzguMjUgMTMuMzAxMiA4LjMyOTAyIDEzLjExMDQgOC40Njk2NyAxMi45Njk4QzguNjEwMzIgMTIuODI5MSA4LjgwMTA5IDEyLjc1MDEgOSAxMi43NTAxSDExLjI1VjEwLjUwMDFDMTEuMjUwOSA5LjcwNDcyIDExLjU2NzMgOC45NDIxOCAxMi4xMjk3IDguMzc5NzdDMTIuNjkyMSA3LjgxNzM2IDEzLjQ1NDYgNy41MDEgMTQuMjUgNy41MDAwOUgxNS43NUMxNS45NDg5IDcuNTAwMDkgMTYuMTM5NyA3LjU3OTExIDE2LjI4MDMgNy43MTk3NkMxNi40MjEgNy44NjA0MSAxNi41IDguMDUxMTggMTYuNSA4LjI1MDA5QzE2LjUgOC40NDkgMTYuNDIxIDguNjM5NzcgMTYuMjgwMyA4Ljc4MDQyQzE2LjEzOTcgOC45MjEwNyAxNS45NDg5IDkuMDAwMDkgMTUuNzUgOS4wMDAwOUgxNC4yNUMxMy44NTIzIDkuMDAwNTQgMTMuNDcxIDkuMTU4NzIgMTMuMTg5OCA5LjQzOTkzQzEyLjkwODYgOS43MjExNCAxMi43NTA1IDEwLjEwMjQgMTIuNzUgMTAuNTAwMVYxMi43NTAxSDE1QzE1LjE5ODkgMTIuNzUwMSAxNS4zODk3IDEyLjgyOTEgMTUuNTMwMyAxMi45Njk4QzE1LjY3MSAxMy4xMTA0IDE1Ljc1IDEzLjMwMTIgMTUuNzUgMTMuNTAwMUMxNS43NSAxMy42OTkgMTUuNjcxIDEzLjg4OTggMTUuNTMwMyAxNC4wMzA0QzE1LjM4OTcgMTQuMTcxMSAxNS4xOTg5IDE0LjI1MDEgMTUgMTQuMjUwMUgxMi43NVYyMS43MjE0QzE1LjI2MzQgMjEuNTI3NSAxNy42MDQgMjAuMzY3NiAxOS4yODA3IDE4LjQ4NTFDMjAuOTU3NCAxNi42MDI2IDIxLjgzOTggMTQuMTQzOSAyMS43NDI3IDExLjYyNDlDMjEuNjQ1NyA5LjEwNTg3IDIwLjU3NjggNi43MjIzMiAxOC43NjAzIDQuOTc0NEMxNi45NDM4IDMuMjI2NDkgMTQuNTIwOSAyLjI1MDA2IDEyIDIuMjVaIiBmaWxsPSIjQzlBRTYzIi8+Cjwvc3ZnPgo=") !important;
+}
+.page-footer .footer.content .footer-social .instagram a {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDE1QzEzLjY1NjkgMTUgMTUgMTMuNjU2OSAxNSAxMkMxNSAxMC4zNDMxIDEzLjY1NjkgOSAxMiA5QzEwLjM0MzEgOSA5IDEwLjM0MzEgOSAxMkM5IDEzLjY1NjkgMTAuMzQzMSAxNSAxMiAxNVoiIGZpbGw9IiMzMjMyMzIiLz4KPHBhdGggZD0iTTE2LjEyNSAyLjYyNUg3Ljg3NUM2LjQ4MzEgMi42MjY1OCA1LjE0ODY1IDMuMTgwMjEgNC4xNjQ0MyA0LjE2NDQzQzMuMTgwMjEgNS4xNDg2NSAyLjYyNjU4IDYuNDgzMSAyLjYyNSA3Ljg3NVYxNi4xMjVDMi42MjY1OCAxNy41MTY5IDMuMTgwMjEgMTguODUxMyA0LjE2NDQzIDE5LjgzNTZDNS4xNDg2NSAyMC44MTk4IDYuNDgzMSAyMS4zNzM0IDcuODc1IDIxLjM3NUgxNi4xMjVDMTcuNTE2OSAyMS4zNzM0IDE4Ljg1MTMgMjAuODE5OCAxOS44MzU2IDE5LjgzNTZDMjAuODE5OCAxOC44NTEzIDIxLjM3MzQgMTcuNTE2OSAyMS4zNzUgMTYuMTI1VjcuODc1QzIxLjM3MzQgNi40ODMxIDIwLjgxOTggNS4xNDg2NSAxOS44MzU2IDQuMTY0NDNDMTguODUxMyAzLjE4MDIxIDE3LjUxNjkgMi42MjY1OCAxNi4xMjUgMi42MjVaTTEyIDE2LjVDMTEuMTEgMTYuNSAxMC4yNCAxNi4yMzYxIDkuNDk5OTMgMTUuNzQxNkM4Ljc1OTkxIDE1LjI0NzEgOC4xODMxNCAxNC41NDQzIDcuODQyNTQgMTMuNzIyMUM3LjUwMTk1IDEyLjg5OTggNy40MTI4MyAxMS45OTUgNy41ODY0NyAxMS4xMjIxQzcuNzYwMSAxMC4yNDkyIDguMTg4NjggOS40NDczNiA4LjgxODAyIDguODE4MDJDOS40NDczNiA4LjE4ODY4IDEwLjI0OTIgNy43NjAxIDExLjEyMjEgNy41ODY0N0MxMS45OTUgNy40MTI4MyAxMi44OTk4IDcuNTAxOTUgMTMuNzIyMSA3Ljg0MjU0QzE0LjU0NDMgOC4xODMxNCAxNS4yNDcxIDguNzU5OTEgMTUuNzQxNiA5LjQ5OTkzQzE2LjIzNjEgMTAuMjQgMTYuNSAxMS4xMSAxNi41IDEyQzE2LjQ5ODcgMTMuMTkzMSAxNi4wMjQxIDE0LjMzNjkgMTUuMTgwNSAxNS4xODA1QzE0LjMzNjkgMTYuMDI0MSAxMy4xOTMxIDE2LjQ5ODcgMTIgMTYuNVpNMTYuODc1IDguMjVDMTYuNjUyNSA4LjI1IDE2LjQzNSA4LjE4NDAyIDE2LjI1IDguMDYwNEMxNi4wNjUgNy45MzY3OSAxNS45MjA4IDcuNzYxMDkgMTUuODM1NiA3LjU1NTUyQzE1Ljc1MDUgNy4zNDk5NSAxNS43MjgyIDcuMTIzNzUgMTUuNzcxNiA2LjkwNTUyQzE1LjgxNSA2LjY4NzI5IDE1LjkyMjIgNi40ODY4NCAxNi4wNzk1IDYuMzI5NUMxNi4yMzY4IDYuMTcyMTcgMTYuNDM3MyA2LjA2NTAyIDE2LjY1NTUgNi4wMjE2MkMxNi44NzM4IDUuOTc4MjEgMTcuMSA2LjAwMDQ5IDE3LjMwNTUgNi4wODU2NEMxNy41MTExIDYuMTcwNzggMTcuNjg2OCA2LjMxNDk4IDE3LjgxMDQgNi40OTk5OEMxNy45MzQgNi42ODQ5OSAxOCA2LjkwMjUgMTggNy4xMjVDMTggNy40MjMzNyAxNy44ODE1IDcuNzA5NTIgMTcuNjcwNSA3LjkyMDVDMTcuNDU5NSA4LjEzMTQ3IDE3LjE3MzQgOC4yNSAxNi44NzUgOC4yNVoiIGZpbGw9IiMzMjMyMzIiLz4KPC9zdmc+Cg==") !important;
+}
+.page-footer .footer.content .footer-social .instagram a:hover {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDE1QzEzLjY1NjkgMTUgMTUgMTMuNjU2OSAxNSAxMkMxNSAxMC4zNDMxIDEzLjY1NjkgOSAxMiA5QzEwLjM0MzEgOSA5IDEwLjM0MzEgOSAxMkM5IDEzLjY1NjkgMTAuMzQzMSAxNSAxMiAxNVoiIGZpbGw9IiNDOUFFNjMiLz4KPHBhdGggZD0iTTE2LjEyNSAyLjYyNUg3Ljg3NUM2LjQ4MzEgMi42MjY1OCA1LjE0ODY1IDMuMTgwMjEgNC4xNjQ0MyA0LjE2NDQzQzMuMTgwMjEgNS4xNDg2NSAyLjYyNjU4IDYuNDgzMSAyLjYyNSA3Ljg3NVYxNi4xMjVDMi42MjY1OCAxNy41MTY5IDMuMTgwMjEgMTguODUxMyA0LjE2NDQzIDE5LjgzNTZDNS4xNDg2NSAyMC44MTk4IDYuNDgzMSAyMS4zNzM0IDcuODc1IDIxLjM3NUgxNi4xMjVDMTcuNTE2OSAyMS4zNzM0IDE4Ljg1MTMgMjAuODE5OCAxOS44MzU2IDE5LjgzNTZDMjAuODE5OCAxOC44NTEzIDIxLjM3MzQgMTcuNTE2OSAyMS4zNzUgMTYuMTI1VjcuODc1QzIxLjM3MzQgNi40ODMxIDIwLjgxOTggNS4xNDg2NSAxOS44MzU2IDQuMTY0NDNDMTguODUxMyAzLjE4MDIxIDE3LjUxNjkgMi42MjY1OCAxNi4xMjUgMi42MjVaTTEyIDE2LjVDMTEuMTEgMTYuNSAxMC4yNCAxNi4yMzYxIDkuNDk5OTMgMTUuNzQxNkM4Ljc1OTkxIDE1LjI0NzEgOC4xODMxNCAxNC41NDQzIDcuODQyNTQgMTMuNzIyMUM3LjUwMTk1IDEyLjg5OTggNy40MTI4MyAxMS45OTUgNy41ODY0NyAxMS4xMjIxQzcuNzYwMSAxMC4yNDkyIDguMTg4NjggOS40NDczNiA4LjgxODAyIDguODE4MDJDOS40NDczNiA4LjE4ODY4IDEwLjI0OTIgNy43NjAxIDExLjEyMjEgNy41ODY0N0MxMS45OTUgNy40MTI4MyAxMi44OTk4IDcuNTAxOTUgMTMuNzIyMSA3Ljg0MjU0QzE0LjU0NDMgOC4xODMxNCAxNS4yNDcxIDguNzU5OTEgMTUuNzQxNiA5LjQ5OTkzQzE2LjIzNjEgMTAuMjQgMTYuNSAxMS4xMSAxNi41IDEyQzE2LjQ5ODcgMTMuMTkzMSAxNi4wMjQxIDE0LjMzNjkgMTUuMTgwNSAxNS4xODA1QzE0LjMzNjkgMTYuMDI0MSAxMy4xOTMxIDE2LjQ5ODcgMTIgMTYuNVpNMTYuODc1IDguMjVDMTYuNjUyNSA4LjI1IDE2LjQzNSA4LjE4NDAyIDE2LjI1IDguMDYwNEMxNi4wNjUgNy45MzY3OSAxNS45MjA4IDcuNzYxMDkgMTUuODM1NiA3LjU1NTUyQzE1Ljc1MDUgNy4zNDk5NSAxNS43MjgyIDcuMTIzNzUgMTUuNzcxNiA2LjkwNTUyQzE1LjgxNSA2LjY4NzI5IDE1LjkyMjIgNi40ODY4NCAxNi4wNzk1IDYuMzI5NUMxNi4yMzY4IDYuMTcyMTcgMTYuNDM3MyA2LjA2NTAyIDE2LjY1NTUgNi4wMjE2MkMxNi44NzM4IDUuOTc4MjEgMTcuMSA2LjAwMDQ5IDE3LjMwNTUgNi4wODU2NEMxNy41MTExIDYuMTcwNzggMTcuNjg2OCA2LjMxNDk4IDE3LjgxMDQgNi40OTk5OEMxNy45MzQgNi42ODQ5OSAxOCA2LjkwMjUgMTggNy4xMjVDMTggNy40MjMzNyAxNy44ODE1IDcuNzA5NTIgMTcuNjcwNSA3LjkyMDVDMTcuNDU5NSA4LjEzMTQ3IDE3LjE3MzQgOC4yNSAxNi44NzUgOC4yNVoiIGZpbGw9IiNDOUFFNjMiLz4KPC9zdmc+Cg==") !important;
+}
+.page-footer .footer.content .footer-social .youtube a {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxLjk2ODUgNi41NDM2QzIxLjg3OTYgNi4xOTg2NSAyMS43MDk5IDUuODc5NzkgMjEuNDczNCA1LjYxMzM0QzIxLjIzNyA1LjM0Njg4IDIwLjk0MDYgNS4xNDA0OCAyMC42MDg3IDUuMDExMTVDMTcuMzk1OSAzLjc3NjU2IDEyLjI3OTMgMy43ODY4NiAxMiAzLjc4ODMyQzExLjcyMDggMy43ODYwOCA2LjYwNDIgMy43NzY1MSAzLjM5MTM5IDUuMDExMTVDMy4wNTk0NyA1LjE0MDQ3IDIuNzYzMDcgNS4zNDY4NyAyLjUyNjYzIDUuNjEzM0MyLjI5MDIgNS44Nzk3NCAyLjEyMDUgNi4xOTg1OCAyLjAzMTU1IDYuNTQzNTFDMS43ODkwMyA3LjQ3NDUxIDEuNSA5LjE3Njg5IDEuNSAxMi4wMDAxQzEuNSAxNC44MjMzIDEuNzg5MDMgMTYuNTI1NiAyLjAzMTUxIDE3LjQ1NjZDMi4xMjA0NCAxNy44MDE1IDIuMjkwMTMgMTguMTIwNCAyLjUyNjU3IDE4LjM4NjlDMi43NjMgMTguNjUzMyAzLjA1OTQyIDE4Ljg1OTcgMy4zOTEzNCAxOC45ODkxQzYuNDY2OTIgMjAuMTcxIDExLjI4NzEgMjAuMjEyMSAxMS45MzgyIDIwLjIxMjFDMTEuOTk2NCAyMC4yMTIxIDEyLjAwMzYgMjAuMjEyMSAxMi4wNjE4IDIwLjIxMjFDMTIuNzEzNCAyMC4yMTIgMTcuNTMzMiAyMC4xNzA5IDIwLjYwODYgMTguOTg5MUMyMC45NDA1IDE4Ljg1OTcgMjEuMjM2OSAxOC42NTMzIDIxLjQ3MzQgMTguMzg2OUMyMS43MDk4IDE4LjEyMDUgMjEuODc5NSAxNy44MDE2IDIxLjk2ODQgMTcuNDU2N0MyMi4yMTEgMTYuNTI1NyAyMi41IDE0LjgyMzMgMjIuNSAxMi4wMDAxQzIyLjUgOS4xNzY5MyAyMi4yMTEgNy40NzQ1NiAyMS45Njg1IDYuNTQzNlpNMTUuMjA4IDEyLjMxMjFMMTAuNzA4IDE1LjMxMjFDMTAuNjUxNSAxNS4zNDk4IDEwLjU4NTkgMTUuMzcxNCAxMC41MTgxIDE1LjM3NDdDMTAuNDUwMyAxNS4zNzggMTAuMzgyOSAxNS4zNjI4IDEwLjMyMyAxNS4zMzA3QzEwLjI2MzIgMTUuMjk4NyAxMC4yMTMyIDE1LjI1MSAxMC4xNzgzIDE1LjE5MjhDMTAuMTQzNCAxNS4xMzQ2IDEwLjEyNSAxNS4wNjggMTAuMTI1IDE1LjAwMDFWOS4wMDAxQzEwLjEyNSA4LjkzMjIyIDEwLjE0MzQgOC44NjU2MSAxMC4xNzgzIDguODA3MzhDMTAuMjEzMiA4Ljc0OTE1IDEwLjI2MzIgOC43MDE0OCAxMC4zMjMgOC42Njk0NUMxMC4zODI5IDguNjM3NDIgMTAuNDUwMyA4LjYyMjI0IDEwLjUxODEgOC42MjU1MkMxMC41ODU5IDguNjI4OCAxMC42NTE1IDguNjUwNDMgMTAuNzA4IDguNjg4MDlMMTUuMjA4IDExLjY4ODFDMTUuMjU5NCAxMS43MjIzIDE1LjMwMTUgMTEuNzY4NyAxNS4zMzA2IDExLjgyMzJDMTUuMzU5OCAxMS44Nzc2IDE1LjM3NSAxMS45Mzg0IDE1LjM3NSAxMi4wMDAxQzE1LjM3NSAxMi4wNjE4IDE1LjM1OTggMTIuMTIyNiAxNS4zMzA2IDEyLjE3N0MxNS4zMDE1IDEyLjIzMTUgMTUuMjU5NCAxMi4yNzc5IDE1LjIwOCAxMi4zMTIxWiIgZmlsbD0iIzMyMzIzMiIvPgo8L3N2Zz4K") !important;
+}
+.page-footer .footer.content .footer-social .youtube a:hover {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxLjk2ODUgNi41NDM2QzIxLjg3OTYgNi4xOTg2NSAyMS43MDk5IDUuODc5NzkgMjEuNDczNCA1LjYxMzM0QzIxLjIzNyA1LjM0Njg4IDIwLjk0MDYgNS4xNDA0OCAyMC42MDg3IDUuMDExMTVDMTcuMzk1OSAzLjc3NjU2IDEyLjI3OTMgMy43ODY4NiAxMiAzLjc4ODMyQzExLjcyMDggMy43ODYwOCA2LjYwNDIgMy43NzY1MSAzLjM5MTM5IDUuMDExMTVDMy4wNTk0NyA1LjE0MDQ3IDIuNzYzMDcgNS4zNDY4NyAyLjUyNjYzIDUuNjEzM0MyLjI5MDIgNS44Nzk3NCAyLjEyMDUgNi4xOTg1OCAyLjAzMTU1IDYuNTQzNTFDMS43ODkwMyA3LjQ3NDUxIDEuNSA5LjE3Njg5IDEuNSAxMi4wMDAxQzEuNSAxNC44MjMzIDEuNzg5MDMgMTYuNTI1NiAyLjAzMTUxIDE3LjQ1NjZDMi4xMjA0NCAxNy44MDE1IDIuMjkwMTMgMTguMTIwNCAyLjUyNjU3IDE4LjM4NjlDMi43NjMgMTguNjUzMyAzLjA1OTQyIDE4Ljg1OTcgMy4zOTEzNCAxOC45ODkxQzYuNDY2OTIgMjAuMTcxIDExLjI4NzEgMjAuMjEyMSAxMS45MzgyIDIwLjIxMjFDMTEuOTk2NCAyMC4yMTIxIDEyLjAwMzYgMjAuMjEyMSAxMi4wNjE4IDIwLjIxMjFDMTIuNzEzNCAyMC4yMTIgMTcuNTMzMiAyMC4xNzA5IDIwLjYwODYgMTguOTg5MUMyMC45NDA1IDE4Ljg1OTcgMjEuMjM2OSAxOC42NTMzIDIxLjQ3MzQgMTguMzg2OUMyMS43MDk4IDE4LjEyMDUgMjEuODc5NSAxNy44MDE2IDIxLjk2ODQgMTcuNDU2N0MyMi4yMTEgMTYuNTI1NyAyMi41IDE0LjgyMzMgMjIuNSAxMi4wMDAxQzIyLjUgOS4xNzY5MyAyMi4yMTEgNy40NzQ1NiAyMS45Njg1IDYuNTQzNlpNMTUuMjA4IDEyLjMxMjFMMTAuNzA4IDE1LjMxMjFDMTAuNjUxNSAxNS4zNDk4IDEwLjU4NTkgMTUuMzcxNCAxMC41MTgxIDE1LjM3NDdDMTAuNDUwMyAxNS4zNzggMTAuMzgyOSAxNS4zNjI4IDEwLjMyMyAxNS4zMzA3QzEwLjI2MzIgMTUuMjk4NyAxMC4yMTMyIDE1LjI1MSAxMC4xNzgzIDE1LjE5MjhDMTAuMTQzNCAxNS4xMzQ2IDEwLjEyNSAxNS4wNjggMTAuMTI1IDE1LjAwMDFWOS4wMDAxQzEwLjEyNSA4LjkzMjIyIDEwLjE0MzQgOC44NjU2MSAxMC4xNzgzIDguODA3MzhDMTAuMjEzMiA4Ljc0OTE1IDEwLjI2MzIgOC43MDE0OCAxMC4zMjMgOC42Njk0NUMxMC4zODI5IDguNjM3NDIgMTAuNDUwMyA4LjYyMjI0IDEwLjUxODEgOC42MjU1MkMxMC41ODU5IDguNjI4OCAxMC42NTE1IDguNjUwNDMgMTAuNzA4IDguNjg4MDlMMTUuMjA4IDExLjY4ODFDMTUuMjU5NCAxMS43MjIzIDE1LjMwMTUgMTEuNzY4NyAxNS4zMzA2IDExLjgyMzJDMTUuMzU5OCAxMS44Nzc2IDE1LjM3NSAxMS45Mzg0IDE1LjM3NSAxMi4wMDAxQzE1LjM3NSAxMi4wNjE4IDE1LjM1OTggMTIuMTIyNiAxNS4zMzA2IDEyLjE3N0MxNS4zMDE1IDEyLjIzMTUgMTUuMjU5NCAxMi4yNzc5IDE1LjIwOCAxMi4zMTIxWiIgZmlsbD0iI0M5QUU2MyIvPgo8L3N2Zz4K") !important;
+}
+.page-footer .footer.content .pay {
+  margin-bottom: 20px;
+}
+.page-footer .footer.content .vertify-img img {
+  max-height: 40px;
+  width: auto;
+}
+.page-footer .row {
+  box-sizing: border-box;
+}
+.page-footer .footer-column {
+  padding: 0 10px !important;
+  box-sizing: border-box;
+}
+.page-footer .footer-column1 {
+  width: 33.5%;
+}
+.page-footer .footer-column1 .footer-item {
+  max-width: 466px;
+}
+/* .page-footer .footer-column2 {
+  width: 20.0%;
+}
+.page-footer .footer-column3 {
+  width: 20.0%;
+}
+.page-footer .footer-column4 {
+  width: 26.5%;
+}
+.page-footer .footer-copyright {
+  padding: 0;
+} */
+
+/* .page-footer .footer-column1,
+.page-footer .footer-column2,
+.page-footer .footer-column3,
+.page-footer .footer-column4 {
+  width: 100%;
+  display: block;
+} */
+
+@media (max-width: 767px) {
+  .footer-column1,
+  .footer-column2,
+  .footer-column3,
+  .footer-column4 {
+    width: 100%;
+    display: block;
+  }
+
+  .footer-column2::before,
+  .footer-column3::before,
+  .footer-column4::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-footer .footer-column1 {
+    width: 33.5%;
+  }
+  .page-footer .footer-column2,
+  .page-footer .footer-column3 {
+    width: 20.0%;
+  }
+  .page-footer .footer-column4 {
+    width: 26.5%;
+  }
+}
+
+
+
+
+/* Product Details Page */
+#product_id {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+#product_price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Nút cộng trừ số lượng sản phẩm */
+.btn-danger, .btn-primary {
+  background-color: #e0e9f0;
+  color: black;
+}
+.btn-danger:hover, .btn-primary:hover {
+  background-color: #ddd; 
+  transform: scale(1.1); 
+}
+.btn-danger:active, .btn-primary:active {
+  background-color: #bbb; 
+  transform: scale(0.95); 
+}
+.btn-danger:focus, .btn-primary:focus {
+  outline: none; /* Xóa viền mặc định khi nút được chọn */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Thêm đổ bóng khi nút được chọn */
+}
+
+
+#cart_btn,
+#review_btn {
+  border-radius: 2rem;
+  background-color: #69544a;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+}
+
+#product_seller {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+#stock_status {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+
+.redColor {
+  color: red !important;
+}
+
+.yellowColor {
+  color: Gold !important;
+}
+
+.greenColor {
+  color: green !important;
+}
+/* khoản cách từ hình chi tiết sản phẩm đến header */
+#product_image {
+  margin-top: 0rem; 
+}
+@media (min-width: 768px) {
+  #product_image {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 1366px) {
+  #product_image {
+    margin-top: 9rem;
+  }
+}
+
+
+/* Product color - Màu sản phẩm */
+.color-button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  margin: 5px;
+  width: 60px;
+  gap: 10px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+.color-button:hover {
+  transform: scale(1.1); 
+}
+.color-button:active {
+  transform: scale(0.95);
+}
+.color-button:focus {
+  box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.25);
+}
+.color-button-selected {
+  transform: scale(0.95); 
+  box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+
+/* Product sizes */
+.size-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.size-button {
+  height: 30px;
+  padding: 10px;
+  line-height: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+.size-button:hover {
+  background-color: #bbb;
+  transform: scale(1.1);
+}
+.size-button.selected {
+  background-color: #c4b3ad;
+  color: white;
+}
+
+/* Loader */
+/* .loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+.loader:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fa9c23;
+  border-color: #fa9c23 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+/* https://css-loaders.com/spinner/ */
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,#ffa516 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#ffa516);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation: l13 1s infinite linear;
+}
+@keyframes l13{ 
+  100%{transform: rotate(1turn)}
+}
+
+/* Cart */
+
+.cart-item {
+  margin: 1.8rem 0rem;
+  padding: 0rem 0.7rem;
+}
+
+.cart-item a {
+  color: grey;
+}
+
+#delete_cart_item {
+  color: red;
+  background: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+}
+
+#card_item_price {
+  /*color: #febd69;*/
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#shipping_btn,
+#checkout_btn,
+.review-btn {
+  /*background-color: #fa9c23;*/
+  background-color: #69544a;
+  border: none;
+  /*border-color: #fa9c23;*/
+  color: white;
+  margin-top: 2rem;
+  border-radius: 5rem;
+}
+
+#view_order_details {
+  background-color: #fa9c23;
+  border-color: #fa9c23;
+}
+
+#order_summary {
+  border: 1px solid #e3e3e3;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+}
+
+.order-summary-values {
+  float: right;
+  font-weight: bold;
+}
+
+.stockCounter input {
+  border: none;
+  width: 3rem;
+  text-align: center;
+}
+
+.plus,
+.minus {
+  padding: 0.1rem 0.5rem;
+}
+
+.stockCounter input::-webkit-outer-spin-button,
+.stockCounter input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: white;
+}
+
+/* Category field */
+.category_field {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Login & Register, User panel */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .wrapper {
+    margin-top: 2rem;
+  }
+}
+
+.wrapper form {
+  padding: 2.5rem 3rem;
+}
+
+.wrapper form .btn,
+.fetch-btn {
+  /* background-color: #fa9c23;
+  color: black; */
+  background-color: #69544a;
+  color: white;
+  border-color: #fa9c23;
+  margin-top: 1rem;
+}
+
+.fetch-btn:hover {
+  /* background-color: #fa9c23;
+  color: black; */
+  background-color: #69544a;
+  color: white;
+  transform: scale(1.1);
+}
+
+.wrapper form a {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+/* Avatar */
+.avatar-profile img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.avatar {
+  display: inline-block;
+  margin-bottom: 0;
+  height: 3rem;
+  width: 3rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .avatar-wrapper {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .avatar-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+} 
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+
+/* biểu tượng xổ xuống ở avatar */
+.custom-dropdown-toggle::after {
+  border-top-color: black;
+}
+
+
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn:active {
+  transform: scale(0.95);
+}
+
+
+.username {
+  font-size: 0.8rem; /* Thay đổi kích thước chữ tại đây */
+  color: black;
+}
+
+/* Header User Profile */
+
+.avatar-nav {
+  margin-right: 0.6rem;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+/* Checkout Steps */
+
+.checkout-progress div {
+  box-sizing: border-box;
+}
+
+.checkout-progress {
+  display: block;
+  clear: both;
+  margin: 20px auto;
+  width: auto;
+  font-family: sans-serif;
+  overflow: auto;
+}
+
+.step {
+  margin: 0;
+  border: 0;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 5px 10px 5px 15px;
+  color: grey;
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold;
+  float: left;
+  height: auto;
+}
+
+.incomplete {
+  background: #eeeeee;
+}
+
+.active-step {
+  /*background: #fa9c23;*/
+  background: #69544a;
+  color: #fff;
+}
+
+.triangle-active {
+  float: left;
+  width: 0;
+  border-top: 20px solid transparent;
+  /*border-left: 15px solid #fa9c23;*/
+  border-left: 15px solid #69544a;
+  border-bottom: 20px solid transparent;
+  margin-left: -1px;
+}
+
+.triangle2-active {
+  width: 0;
+  float: left;
+  /*border-top: 20px solid #fa9c23;*/
+  border-top: 20px solid #69544a;
+  border-left: 15px solid #fff;
+  /*border-bottom: 20px solid #fa9c23;*/
+  border-bottom: 20px solid #69544a;
+  margin-right: -1px;
+}
+
+.triangle-incomplete {
+  float: left;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-left: 15px solid #eeeeee;
+  border-bottom: 20px solid transparent;
+  margin-left: -1px;
+}
+
+.triangle2-incomplete {
+  width: 0;
+  float: left;
+  border-top: 20px solid #eeeeee;
+  border-left: 15px solid #fff;
+  border-bottom: 20px solid #eeeeee;
+  margin-right: -1px;
+}
+
+/* User Profile */
+
+.avatar-profile {
+  height: 16rem;
+  width: 16rem;
+}
+
+.user-info h4 {
+  font-weight: 800;
+  color: grey;
+  margin-top: 2rem;
+}
+
+.user-info p {
+  font-size: 1.1rem;
+}
+
+#edit_profile {
+  background-color: #fa9c23;
+  border-color: #fa9c23;
+}
+
+/* Confirm Order */
+
+.order-confirm p,
+.order-details p {
+  margin-left: 1.5rem;
+}
+
+.update-btn,
+#create_btn {
+  background-color: #fa9c23;
+  border-color: #fa9c23;
+  color: white;
+}
+
+.update-btn:hover {
+  color: white;
+}
+
+/* Pagination: page-link: chữ, page-item: ô */
+.page-item.active .page-link {
+  background-color: #c4b3ad;
+  border-color: #c4b3ad;
+  color: #392a27;
+}
+
+
+.page-link {
+  color: #c4b3ad;
+}
+
+.page-link:hover {
+  color: #392a27;
+  transform: scale(1.1);
+}
+
+/* Scroll to top - quay lại đầu trang */
+.top-btn {
+  display: inline-block;
+  align-self: flex-start;
+  margin-left: 16px;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+  .top-btn {
+    margin-top: 3rem;
+  }
+}
+.top-btn:hover {
+  background-color: #392a27;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+
+/* Products List Admin */
+#products_table .btn {
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.4rem;
+}
+
+/* Dashboard */
+
+.admin-child-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-font-size {
+  font-size: 1.5rem;
+}
+
+/* Reviews */
+
+.rating {
+  /* margin-top: 10rem; */
+  margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  .rating {
+    margin-top: 0rem;
+  }
+}
+
+.stars {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.star {
+  display: inline;
+  list-style: none;
+  font-size: 3rem;
+  padding-left: 0.9rem;
+  color: #e3e3e3;
+}
+
+.star:first-child {
+  padding-left: 0;
+}
+
+.orange {
+  color: #fa9c23;
+}
+
+.yellow {
+  color: #fdcc0d;
+}
+
+/* Tạo khoản cách preview với user avatar cho small screen */
+@media (max-width: 767px) {
+  .reviews .col-11 {
+    padding-left: 2rem;
+  }
+}
+
+.review_user {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.cross-button {
+  background-color: #dc3545;
+}
+
+#filter_form .row .col {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#filter_form button {
+  background-color: #69544a;
+  border-color: #69544a;
+  color: white;
+}
+
+.filter {
+  /* margin-top: 5.8rem; */
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .filter {
+    margin-top: 8rem;
+  }
+}
+
+/* Sidebar */
+
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.list-group-item.active {
+  background-color: #c4b3ad;
+  border-color: #e0e9f0;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.sort-button {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Tạo khoản cách với chữ "Sắp xếp" */
+#sortOrder {
+  margin-left: 10px;
+}
+#sortOrder:hover {
+  background-color: #f3f4f6;
+  transform: scale(1.1);
+}
+
+/* Bảng DS Sản phẩm - ADMIN */
+.product-list-table th:nth-child(1), .product-list-table td:nth-child(1) {
+  width: 120px !important;
+}
+.product-list-table th:nth-child(2), .product-list-table td:nth-child(2) {
+  width: 480px !important;
+}
+.product-list-table th:nth-child(3), .product-list-table td:nth-child(3) {
+  width: 150px !important;
+}
+
+/* Bảng DS User- ADMIN */
+/* .user-list-table th:nth-child(1), .user-list-table td:nth-child(1) {
+  width: 200px !important;
+}
+.user-list-table th:nth-child(2), .user-list-table td:nth-child(2) {
+  width: 200px !important;
+}
+.user-list-table th:nth-child(3), .user-list-table td:nth-child(3) {
+  width: 150px !important;
+}
+.user-list-table th:nth-child(4), .user-list-table td:nth-child(4) {
+  width: 130px !important;
+}
+.user-list-table th:nth-child(5), .user-list-table td:nth-child(5) {
+  width: 200px !important;
+} */
+
+
+/* Khung icon - Admin Actions */
+.button-outline {
+  padding: 2px 5px; 
+  /* font-size: 12px;  */
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #a1c4fd;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+}
+
+#progressbar-1 {
+  color: #455A64;
+}
+
+#progressbar-1 li {
+  list-style-type: none;
+  font-size: 13px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+
+#progressbar-1 #step1:before {
+  content: "✓";
+  color: #fff;
+  width: 29px;
+  margin-left: 22px;
+  padding-left: 11px;
+  font-weight: bold;
+}
+
+#progressbar-1 #step2:before {
+  content: "✓";
+  color: #fff;
+  width: 29px;
+  font-weight: bold;
+}
+
+#progressbar-1 #step3:before {
+  content: "✓";
+  color: #fff;
+  width: 29px;
+  margin-right: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#progressbar-1 #step1x:before {
+  content: "X";
+  color: #fff;
+  width: 29px;
+  margin-left: 22px;
+  padding-left: 11px;
+  font-weight: bold;
+}
+
+#progressbar-1 #step2x:before {
+  content: "X";
+  color: #fff;
+  width: 29px;
+  font-weight: bold;
+}
+
+#progressbar-1 #step3x:before {
+  content: "X";
+  color: #fff;
+  width: 29px;
+  margin-right: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#progressbar-1 li:before {
+  line-height: 29px;
+  display: block;
+  font-size: 12px;
+  background: #455A64;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#progressbar-1 li:after {
+  content: '';
+  width: 121%;
+  height: 2px;
+  background: #455A64;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 15px;
+  z-index: -1;
+}
+
+#progressbar-1 li:nth-child(2):after {
+  left: 50%
+}
+
+#progressbar-1 li:nth-child(1):after {
+  left: 25%;
+  width: 121%
+}
+
+#progressbar-1 li:nth-child(3):after {
+  left: 25%;
+  width: 50%;
+}
+
+#progressbar-1 li.active:before,
+#progressbar-1 li.active:after {
+  background: #488978;
+}
+
+.card-stepper {
+  z-index: 0
+}
+
+/* 140724 */
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.table-scroll {
+  border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+.grid-cell-centered {
+  text-align: center;
+}
+
+
+
+/* Chưa có tài khoản */
+.my-3 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0.1rem !important; /* dùng ở form đăng nhập */
+}
+
+/* Đăng nhập với Google/ Facebook */
+.button-container {
+  display: flex; /* Đặt các nút cạnh nhau */
+  justify-content: space-between; /* Tùy chọn: Để tạo khoảng cách đều giữa các nút */
+}
+@media (max-width: 576px) {
+  .button-container {
+    flex-direction: column; /* Các nút sẽ được sắp xếp theo cột trên màn hình nhỏ */
+  }
+
+}
+
+.button.google {
+  margin-right: 10px; /* Tạo khoảng cách giữa các nút, điều chỉnh giá trị theo nhu cầu */
+}
+
+.login-wrapper {
+  padding: 0rem 3rem;
+}
+
+.loginButton{
+  width: 150px;
+  padding: 0.4rem 1.8rem;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .loginButton {
+    width: auto;
+  }
+}
+
+.loginButton:hover {
+  transform: scale(1.1);
+}
+.loginButton:active {
+  transform: scale(0.95);
+}
+
+.google{
+  background-color: #df4930;
+}
+.facebook{
+  background-color: #507cc0;
+}
+.github{
+  background-color: black;
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Tạo gap giữa các Slick-slider*/
+.slider-container .slick-slide > div {
+  margin: 0 0.1rem;
+}
+
+/* Fix chiều cao tên sản phẩm trong Slider */
+.slider-container .card-title{
+  height: 2.5rem;
+}
+
+.slick-arrow {
+  background-color: #6d7572 !important; /* Màu nền đen */
+  color: #000 !important; /* Màu chữ trắng */
+  border-radius: 16px;
+  padding: 0; /* Điều chỉnh padding */
+  width: 19px !important; /* Điều chỉnh chiều rộng */
+  height: 19px !important; /* Điều chỉnh chiều cao */
+}
+
+.post {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.post h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.post p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #555;
+}
+
+.post .contact-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post .contact-info p {
+  margin: 5px 0;
+}
+
+.post .branch {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
